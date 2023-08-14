@@ -1,11 +1,8 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
  * Description: Prints single digit numbers in base 10
- *              using the putchar function.
- *
  * Return: Always 0 (Success)
  */
 int main(void)
