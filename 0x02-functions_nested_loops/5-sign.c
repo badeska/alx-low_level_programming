@@ -1,25 +1,15 @@
 #include "main.h"
-
 /**
- * _putchar - Writes a character to standard output
- * @c: The character to write
+ * print_sign - prints the sign of a numver
  *
- * Return: On success, returns the number of characters written.
- * On error, returns -1 and sets errno.
- */
-
-int _putchar(char c)
-{
-	return (1, &c, 1);
-}
-
-/**
- * print_sign - Prints the sign of a number
- * @n: The number to check
+ * @n: the int to check
  *
- * Return: 1 if positive, 0 if zero, -1 if negative.
+ * Return: 1 and prints + if n is greater than zero
+ *
+ * 0 and prints 0 if n is zero
+ *
+ * -1 and prints - if n is less than zero
  */
-
 int print_sign(int n)
 {
 	if (n > 0)
@@ -29,12 +19,12 @@ int print_sign(int n)
 	}
 	else if (n == 0)
 	{
-		_putchar('0');
+		_putchar(48);
 		return (0);
 	}
-	else
+	else if (n < 0)
 	{
 		_putchar('-');
-		return (-1);
 	}
+	return (-1);
 }
