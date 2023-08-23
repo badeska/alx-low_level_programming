@@ -1,0 +1,1 @@
+this readme file for 0x06pointers_arrays_strings
