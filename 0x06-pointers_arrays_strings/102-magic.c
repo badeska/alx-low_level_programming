@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * Description: main - prints a[2] = 98
- * Return: Always zero
+ * Description: main - prints the required value.
+ * Return: Always 0
 */
 
 int main(void)
