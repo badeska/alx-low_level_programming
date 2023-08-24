@@ -2,7 +2,7 @@
 
 /**
  * Description: main - prints a[2] = 98
- * Return: Always success
+ * Return: Always zero
 */
 
 int main(void)
