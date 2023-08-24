@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Description: main - addition of a line of code.
+ * Description: main - prints a[2] = 98
  * Return: Always success
 */
 
